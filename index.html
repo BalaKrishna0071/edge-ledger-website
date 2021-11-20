@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img\css\style.css">
+    <link rel="stylesheet" media="screen and (max-width:786px)" href="./img/css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:1100px)" href="./img/css/widescreen.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>EdgeLedger Financial | Accounting & InvestmentS</title>
+</head>
+
+<body id="Home">
+    <!-- navbar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
+        </h1>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#what">what</a></li>
+            <li><a href="#who">who</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <!-- header:showcase content -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-headings"> The Sky Is The limit </h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta atque amet aperiam, hic dolorum tempora.</p>
+            <a href="#what" class="btn">Read More</a>
+        </div>
+    </header>
+    <section id="what" class="light-primary py-1">
+        <div class="container">
+            <h2 class="m-headings text-center"><span class="text-primary">What</span> We Do</h2>
+            <div class="items">
+                <div class="item">
+
+
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Investment banking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                    </div>
+
+                </div>
+                <div class="item">
+
+
+                    <i class="fas fa-book-open fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                    </div>
+
+                </div>
+                <div class="item">
+
+
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Tax & Custodial</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section who we are -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-headings"><span class="text-primary">Who</span> We Are</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt hic magni perspiciatis maiores tempora asperiores sequi aspernatur quo id eveniet, rem totam, quos accusantium repudiandae vero cupiditate necessitatibus mollitia maxime!</p>
+            <h3>Our Team</h3>
+            <ul class="list">
+                <li>Mark Smith: CEO</li>
+                <li>Shannon Johnson: CFO</li>
+                <li>John corbit: Lead Accountant</li>
+                <li>Janet Williams: Investment Manager</li>
+                <li>Kara jackson: Senior Accountant</li>
+            </ul>
+
+        </div>
+    </section>
+    <!-- section: clients -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-headings text-center"><span class="text-primary">Our</span> Clients</h2>
+            <div class="items">
+                <div><img src="./img/logos/logo1.png" alt="clients"></div>
+                <div><img src="./img/logos/logo2.png" alt="clients"></div>
+                <div><img src="./img/logos/logo3.png" alt="clients"></div>
+                <div><img src="./img/logos/logo4.png" alt="clients"></div>
+                <div><img src="./img/logos/logo5.png" alt="clients"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- section: contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-headings">Contact Us</h2>
+            <p>Please Use The Form TO Contact Us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea type="text" name="Message" id="Message" placeholder="Enter Message"></textarea>
+                </div>
+                <input type="submit" value="send" class="btn btn-dark">
+            </form>
+
+        </div>
+        <div id="map" class="map"></div>
+
+    </section>
+
+
+    <!-- footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div id="container">
+            <p>Copyright &copy; 2019, Edger Ledger, All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMoh7DcFTM3prdfGKeP7qQGwmogQIQD10&callback=initMap">
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
+<!--  -->
